@@ -19,3 +19,4 @@ moitie_double = moitie_double.loc[moitie_double[0]%2 == 1,:] #loc permet de sele
 
 reponse = sum(moitie_double.loc[:,1])
 
+print(reponse)
